@@ -1,38 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Page CV</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
-    <header class="bg-blue-500 text-white p-4">
-        <h1 class="text-3xl">Your Name</h1>
-        <p class="text-xl">Your Profession</p>
-    </header>
-    <main class="p-4">
-        <section class="mb-4">
-            <h2 class="text-2xl font-bold">About Me</h2>
-            <p class="text-lg">A brief description about yourself.</p>
-        </section>
-        <section class="mb-4">
-            <h2 class="text-2xl font-bold">Experience</h2>
-            <ul class="list-disc pl-5">
-                <li class="text-lg">Job Title at Company - Duration</li>
-                <li class="text-lg">Job Title at Company - Duration</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <hr />
+      <div class="header">
+        <h1>Your Name</h1>
+        <h2 class="title">Junior Frontend Developer</h2>
+        <div class="detail address">
+          <p>Email: your.email@example.com</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Address: 123 Your Street, Your City, Your Country</p>
+        </div>
+      </div>
+      <div class="section">
+        <h2  class="title">Skills</h2>
+        <ul>
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>React.js, Vue.js</li>
+          <li>Version Control (Git)</li>
+          <li>Cross-Browser Compatibility</li>
+          <li>RESTful APIs</li>
+          <li>Webpack, Babel</li>
+          <li>Testing and Debugging</li>
+          <li>UI/UX Design Principles</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2 class="title">Education</h2>
+        <h3 class="subtitle">School Name, Location -Degree</h3>
+        <p>University of Example</p>
+        <p>Graduated: May 2020</p>
+      </div>
+    <div class="section">
+        <h2 class="title">Experience</h2>
+        <div class="experience">
+            <h3 class="subtitle">Frontend Developer at Example Corp</h3>
+            <p>June 2020 - Present</p>
+            <ul>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
             </ul>
-        </section>
-        <section class="mb-4">
-            <h2 class="text-2xl font-bold">Education</h2>
-            <ul class="list-disc pl-5">
-                <li class="text-lg">Degree at Institution - Year</li>
-                <li class="text-lg">Degree at Institution - Year</li>
+            <p>Skills: HTML, CSS, JavaScript, jQuery, Responsive Design</p>
+        </div>
+        <div class="experience">
+            <h3 class="subtitle">Junior Web Developer at Sample Inc</h3>
+            <p>January 2019 - May 2020</p>
+            <ul>
+                <li>Assisted senior developers in creating and maintaining websites</li>
+                <li>Worked on bug fixes and feature enhancements for existing projects</li>
+                <li>Participated in code reviews and team meetings</li>
             </ul>
-        </section>
-    </main>
-    <footer class="bg-blue-500 text-white p-4 text-center">
-        <p>Contact Information</p>
-    </footer>
-</body>
+            <p>Skills: HTML, CSS, JavaScript, Git, Team Collaboration</p>
+        </div>
+    </div>
+    </div>
+  </body>
 </html>
