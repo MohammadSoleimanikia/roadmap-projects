@@ -5,7 +5,8 @@ This project is a single-page CV template designed to showcase your professional
 ## Live Preview
 
 Check out the live preview of the project [here](https://mohammadsoleimanikia.github.io/single-page-cv/).
-Git hub URL [here](https://github.com/MohammadSoleimanikia/single-page-cv).
+
+project URL [here](https://roadmap.sh/projects/single-page-cv).
 ## Features
 
 - Responsive design
